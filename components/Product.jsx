@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { urlFor } from '../lib/client'
-import Image from 'next/image'
 
 function Product({product:{image, name, slug, price}}) {
   return (
