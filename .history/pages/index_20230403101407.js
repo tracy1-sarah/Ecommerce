@@ -8,7 +8,7 @@ function Home({products, bannerData}) {
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />     
       <div className='products-heading'>
         <h2>Best Selling Products</h2>
-        <p>Quality Clothing just for you</p>
+        <p>Quality Clothing</p>
 
       </div>
       <div className='products-container'>

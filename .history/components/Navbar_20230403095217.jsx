@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href="/">
-          TheSpec Shop
+        <Link href="/" className='italics'>
+          SpecShop
         </Link>
       </p>
       <button type="button" className='cart-icon' onClick={()=> setShowCart(true)}>

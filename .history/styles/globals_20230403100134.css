@@ -68,7 +68,7 @@ width: 100%;
   color: gray;
   font-size: 25px;
   font-style: italic;
-  color: #f02d34
+  color: f02d34
 
 }
 .cart-icon{
@@ -157,12 +157,12 @@ width: 100%;
 }
 
 .hero-banner-container h3{
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 4px;
 }
 .hero-banner-container h1{
   color: white;
-  font-size: 7em;
+  font-size: 10em;
   margin-left: -20px;
   text-transform: uppercase;
 }

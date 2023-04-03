@@ -11,10 +11,12 @@ function HeroBanner({ heroBanner }) {
         <p className="beats-solo">{heroBanner.smallText}</p>
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
-        <img
+        <Image
           src={urlFor(heroBanner.image)}
           alt="spec wear"
-          className="hero-banner-image"                   
+          className="hero-banner-image"
+          width
+                   
           
         />
         <div>
